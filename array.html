@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Array Practise</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0>
+    </head>
+    <body>
+        <div class="container">
+        <h1>Arrays</h1>
+        <div class="input-group">
+            <input type="text" id="elementInput" placeholder="Enter Element">
+            <section><button onclick="addElement()">Add Element</button></section>
+            <section><button onclick="removeElement('first')">Remove First</button></section>
+            <section><button onclick="removeElement('last')">Remove Last</button></section>
+        </div>
+        <div class="array-container">
+            <h2>Array Elements</h2>
+            <div id="arrayElements"></div>
+        </div>
+    </div>
+    <script src="arraypractise.js"></script>
+    <style>
+    
+    body {
+        font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin: 30px;
+    }
+    .container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 5px solid #8e4545;
+        border-radius: 10px;
+        background-color: #ffc996;
+    }
+    .array-container {
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid #8e4545;
+        border-radius: 25px;
+        background-color: #ffffff;
+    }
+    .input-group {
+        margin-top: 20px;
+    }
+    .input-group input[type="text"], .input-group button {
+        padding: 10px;
+        font-size: 16px;
+        margin: 5px;
+        border: 1px solid #8e4545;
+        border-radius: 15px;
+        background-color: rgb(255, 244, 244);
+
+        
+    }
+    
+</style>
+    </body>
+</html>
